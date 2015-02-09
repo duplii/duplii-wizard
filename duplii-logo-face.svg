@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="53px" height="53px" viewBox="0 0 53 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Blinking Duplii logo</title>
+    <desc>Blinking Duplii logo</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="duplii-logo-face" sketch:type="MSLayerGroup" fill="#FFFFFF">
+            <path d="M52.779,6.604 C52.779,9.918 50.092,12.604 46.779,12.604 C43.465,12.604 40.779,9.918 40.779,6.604 C40.779,3.29 43.465,0.604 46.779,0.604 C50.092,0.604 52.779,3.29 52.779,6.604" id="right-eye"></path>
+            <path d="M12.779,6.604 C12.779,9.918 10.092,12.604 6.779,12.604 C3.465,12.604 0.779,9.918 0.779,6.604 C0.779,3.29 3.465,0.604 6.779,0.604 C10.092,0.604 12.779,3.29 12.779,6.604" id="left-eye"></path>
+            <path d="M12.779,26.549 L0.779,26.549 C0.779,40.885 12.441,52.549 26.779,52.549 C41.115,52.549 52.779,40.885 52.779,26.549 L40.779,26.549 C40.779,34.269 34.498,40.549 26.779,40.549 C19.059,40.549 12.779,34.269 12.779,26.549 Z" id="smile"></path>
+        </g>
+    </g>
+</svg>
