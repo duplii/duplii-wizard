@@ -15,9 +15,16 @@
 	
 	<div class="animation-container">
 		<div class="modal-container">
+			<span id="magic-dot" class="magic-dot"></span>
 		</div>
 	</div>
 	
 	<small>Insert description text here.</small>
+	
+	<script>
+		document.getElementById('magic-dot').addEventListener('click', function(event) {
+			this.classList.add('magic-dot-expanded');
+		})
+	</script>
 </body>
 </html>

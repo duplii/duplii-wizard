@@ -1,2 +1,23 @@
 /* Put here animation specific styles */
 
+/* Magic Dot thing */
+
+.magic-dot {
+	display: inline-block;
+	position: absolute;
+	top: 20px;
+	right: 40px;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	transition: all .7s ease-in;
+	background-color: $orange-alt;
+}
+
+.magic-dot-expanded {
+	width: 1200px;
+	height: 1200px;
+	top: -200px;
+	right: -200px;
+}
+
