@@ -30,6 +30,21 @@ svg {
 	right: -200px;
 }
 
-svg {
-	overflow: visible;
+/* Magic Texts */
+
+#magic-text-container .magic-text {
+	$delay: .45s;
+	color: $white;
+	transform: scale3d(0,0,0);
+	transition: all .3s cubic-bezier(0, -2, 0, 2) $delay;
+	
+	@for $nth from 1 through 4 {
+		&:nth-child(#{$nth}) {
+			transition-delay: $delay + ($nth * 0.15s);
+		}
+	}
+}
+
+#magic-text-container.magic-text-container-appear .magic-text {
+	transform: scale3d(1,1,1);
 }

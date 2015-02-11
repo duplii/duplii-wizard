@@ -65,5 +65,27 @@ svg {
   height: 1200px;
   top: -200px;
   right: -200px; }
-svg {
-  overflow: visible; }
+
+/* Magic Texts */
+#magic-text-container .magic-text {
+  color: #FFFFFF;
+  -webkit-transform: scale3d(0, 0, 0);
+          transform: scale3d(0, 0, 0);
+  -webkit-transition: all .3s cubic-bezier(0, -2, 0, 2) 0.45s;
+          transition: all .3s cubic-bezier(0, -2, 0, 2) 0.45s; }
+  #magic-text-container .magic-text:nth-child(1) {
+    -webkit-transition-delay: 0.6s;
+            transition-delay: 0.6s; }
+  #magic-text-container .magic-text:nth-child(2) {
+    -webkit-transition-delay: 0.75s;
+            transition-delay: 0.75s; }
+  #magic-text-container .magic-text:nth-child(3) {
+    -webkit-transition-delay: 0.9s;
+            transition-delay: 0.9s; }
+  #magic-text-container .magic-text:nth-child(4) {
+    -webkit-transition-delay: 1.05s;
+            transition-delay: 1.05s; }
+
+#magic-text-container.magic-text-container-appear .magic-text {
+  -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1); }
