@@ -1,5 +1,14 @@
 /* Put here animation specific styles */
 
+svg {
+	overflow: visible;
+}
+
+#blinking-face-obj {
+	position: relative;
+	z-index: 5;
+}
+
 /* Magic Dot thing */
 
 .magic-dot {
