@@ -7,6 +7,8 @@ svg {
 #blinking-face-obj {
 	position: relative;
 	z-index: 5;
+	width: 52px;
+	height: 52px;
 }
 
 /* Magic Dot thing */
@@ -32,7 +34,15 @@ svg {
 
 /* Magic Texts */
 
-#magic-text-container .magic-text {
+.wizard-end-container {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.magic-text-container .magic-text {
 	$delay: .45s;
 	color: $white;
 	transform: scale3d(0,0,0);
@@ -45,6 +55,6 @@ svg {
 	}
 }
 
-#magic-text-container.magic-text-container-appear .magic-text {
+.magic-text-container.magic-text-container-appear .magic-text {
 	transform: scale3d(1,1,1);
 }

@@ -9,11 +9,14 @@
 
 body {
   text-align: center;
-  font-family: Helvetica, sans-serif;
+  font-family: "Gotham Rounded", Helvetica, sans-serif;
   color: #938F8D;
   max-width: 700px;
   margin: 0 auto;
   padding: 20px; }
+
+h2, h3 {
+  font-weight: normal; }
 
 .logo {
   width: 63px; }

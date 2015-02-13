@@ -35,7 +35,7 @@ function animateSvgSmil(objId, animation) {
 window.addEventListener('load', function() {
 	document.getElementById('magic-dot').addEventListener('click', function() {
 		this.classList.add('magic-dot-expanded');
-		document.getElementById('magic-text-container').classList.add('magic-text-container-appear');
+		document.querySelector('.magic-text-container').classList.add('magic-text-container-appear');
 		animateSmile();
 		setTimeout(function(){animateSvgSmil('blinking-face-obj', 'blink');}, 2500);
 	});
