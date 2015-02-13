@@ -10,7 +10,7 @@
 		"outputAbbreviatedPath": "\/public\/bubble-animation-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
 	"\/bubble-animation.scss": {
@@ -46,7 +46,7 @@
 		"outputAbbreviatedPath": "\/public\/logo-animation-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
 	"\/logo-animation.scss": {
@@ -154,7 +154,7 @@
 		"outputAbbreviatedPath": "\/public\/scripts-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
 	"\/style.scss": {
