@@ -13,6 +13,6 @@ window.addEventListener('load', function() {
 		document.querySelector('.wizard-end-container').classList.add('wizard-end-appear');
 		document.querySelector('.magic-text-container').classList.add('magic-text-container-appear');
 		animateSmile();
-		setTimeout(function(){animateSvgSmil('blinking-face-obj', 'blink');}, 2500);
+		setTimeout(function(){animateSvgSmil('blinking-face-obj', 'blink');}, 1700);
 	});
 });

@@ -56,7 +56,7 @@ svg {
 }
 
 .magic-text-container .magic-text {
-	$delay: .45s;
+	$delay: .1s;
 	color: $white;
 	transform: scale3d(0,0,0);
 	transition: all .3s cubic-bezier(0, -2, 0, 2) $delay;

@@ -61,20 +61,20 @@ svg {
   color: #FFFFFF;
   -webkit-transform: scale3d(0, 0, 0);
           transform: scale3d(0, 0, 0);
-  -webkit-transition: all .3s cubic-bezier(0, -2, 0, 2) 0.45s;
-          transition: all .3s cubic-bezier(0, -2, 0, 2) 0.45s; }
+  -webkit-transition: all .3s cubic-bezier(0, -2, 0, 2) 0.1s;
+          transition: all .3s cubic-bezier(0, -2, 0, 2) 0.1s; }
   .magic-text-container .magic-text:nth-child(1) {
-    -webkit-transition-delay: 0.6s;
-            transition-delay: 0.6s; }
+    -webkit-transition-delay: 0.25s;
+            transition-delay: 0.25s; }
   .magic-text-container .magic-text:nth-child(2) {
-    -webkit-transition-delay: 0.75s;
-            transition-delay: 0.75s; }
+    -webkit-transition-delay: 0.4s;
+            transition-delay: 0.4s; }
   .magic-text-container .magic-text:nth-child(3) {
-    -webkit-transition-delay: 0.9s;
-            transition-delay: 0.9s; }
+    -webkit-transition-delay: 0.55s;
+            transition-delay: 0.55s; }
   .magic-text-container .magic-text:nth-child(4) {
-    -webkit-transition-delay: 1.05s;
-            transition-delay: 1.05s; }
+    -webkit-transition-delay: 0.7s;
+            transition-delay: 0.7s; }
 
 .magic-text-container.magic-text-container-appear .magic-text {
   -webkit-transform: scale3d(1, 1, 1);
