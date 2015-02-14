@@ -1,11 +1,9 @@
 /***************** Fire them all! *****************/
 
 window.addEventListener('load', function() {
-	// Set a place where we want the bubble thing to fire.
-	var place = document.querySelector('.bubble-animation');
 	
-	// Fire the thing!	
-	celebrate(place, 10);
+	// Start the celebration! Woooo!	
+	celebrate();
 	
 	document.getElementById('end-wizard').addEventListener('click', function() {
 		stopCelebration();
