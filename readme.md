@@ -1,14 +1,20 @@
-# Duplii testing template
+# Duplii Wizard
 
-This is the template we'll use for quickly prototyping animations and special effects.
+These are the screens that will welcome our users during their first visit. There will be a brief setup and welcome messages.
 
-I am also including the `config.codekit` file so that everyone using Codekit will be able to get started immediately.
+Modal transitions is for the demo only. In production, we'll use whatever has already been implemented and maybe we'll come back and change the transition later on.
+
+The bubbles scripts and styles are taken remotely from the GitHub project pages so we can maintain two separate repos for the different animations. Bubbles will infact be used elsewhere in the app. Cool, them bubbles.
+
+The dot that gets animated on top right of the second screen will be placed above other dots we'll use as stepmarks on a progress bar. The effect will thus be cooler on the final interface.
+
+The winking-svg will not wink on Internet Explorer, no matter the version, but then hey, you can't expect to use Internet Explorer and have svgs be nice with you. Digital things and digital people hate Internet Explorer. I am yet to check if the fallback is gracious enough.
 
 ## Live demo
 
-A live demo of this project can be found at [Insert Link Here](http://duplii.com/ "Duplii | We Make Duplication Happen").
+A live demo of this project can be found [here](http://duplii.github.io/duplii-wizard "Duplii | Introductory wizard demo").
 
-Include an optional image to preview the project.
+<img src="http://duplii.github.io/duplii-wizard/public/screenshot.png" width="680" height="451" alt="Duplii | Introductory Wizard Screenshot" />
 
 ## MIT License
 
