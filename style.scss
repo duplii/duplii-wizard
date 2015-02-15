@@ -21,7 +21,7 @@ body {
 	text-align: center;
 	font-family: "Gotham Rounded", Helvetica, sans-serif;
 	color: #938F8D;
-	max-width: 700px;
+	max-width: 800px;
 	margin: 0 auto;
 	padding: 20px;
 }
@@ -52,7 +52,42 @@ h3 {
 	border: solid 1px #eceae9;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
-	border-radius: 5px;
+	border-radius: 10px;
 	background-color: #FFF;
 	overflow: hidden;
 }
+
+
+
+
+button {
+	font-family: inherit;
+}
+
+.btn {
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: 400;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	padding: 6px 12px;
+	font-size: 12px;
+	line-height: 1.42857143;
+	border-radius: 5px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+.btn-orange {
+	color: #ffffff;
+	background-color: #ff804d;
+	border-color: #ff804d;
+}
+
