@@ -4,7 +4,6 @@ $orange-alt: #FA8E6A;
 $white: #FFFFFF;
 
 .celebration-container {
-	height: 100%;
 	
 	.bubble-container {
 		position: absolute;
@@ -21,35 +20,18 @@ $white: #FFFFFF;
 	
 	@media (min-width: 600px) {
 		position: relative;
-		max-width: 400px;
+		max-width: 550px;
 		margin: 0 auto;
 		
 		.bubble-container {
-			left: -70px;
+			left: -80px;
 			width: 70px;
 			
 			&.bubble-container--right {
-				right: -70px;
+				right: -80px;
 			}
 		}
 	}
-}
-
-.celebration-message {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	height: 100%;
-	margin: auto auto;
-}
-
-.last-page {
-	display: none;
-}
-
-svg {
-	overflow: visible;
 }
 
 #blinking-face-obj {
@@ -57,6 +39,7 @@ svg {
 	z-index: 5;
 	width: 52px;
 	height: 52px;
+	margin-bottom: 25px;
 }
 
 /* Magic Dot thing */
@@ -64,13 +47,14 @@ svg {
 .magic-dot {
 	display: inline-block;
 	position: absolute;
-	top: 20px;
-	right: 40px;
+	top: 30px;
+	right: 30px;
 	width: 12px;
 	height: 12px;
 	border-radius: 50%;
 	transition: all .5s ease-in;
 	background-color: $orange-alt;
+	z-index: 1;
 }
 
 .magic-dot-expanded {
@@ -84,14 +68,9 @@ svg {
 
 .wizard-end-container {
 	position: absolute;
-	height: 100%;
 	width: 100%;
 	top: 0;
 	left: 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 	visibility: hidden;
 	padding: 20px;
 }
@@ -101,7 +80,10 @@ svg {
 }
 
 .magic-text-container .magic-text {
+	max-width: 400px;
 	color: $white;
+	text-align: center;
+	z-index: 2;
 	$delay: .05s;
 	transform: scale3d(0,0,0);
 	transition: all .3s cubic-bezier(0, -2, 0, 2) $delay;
