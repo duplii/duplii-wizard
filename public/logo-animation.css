@@ -1,4 +1,50 @@
 /* Put here animation specific styles */
+.celebration-container {
+  height: 100%; }
+  .celebration-container .bubble-container {
+    position: absolute;
+    left: 0;
+    top: 20%;
+    width: 45px;
+    height: 50%; }
+    .celebration-container .bubble-container.bubble-container--right {
+      left: auto;
+      right: 0; }
+  @media (min-width: 600px) {
+    .celebration-container {
+      position: relative;
+      max-width: 400px;
+      margin: 0 auto; }
+      .celebration-container .bubble-container {
+        left: -70px;
+        width: 70px; }
+        .celebration-container .bubble-container.bubble-container--right {
+          right: -70px; } }
+
+.celebration-message {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  margin: auto auto; }
+
+.last-page {
+  display: none; }
+
 svg {
   overflow: visible; }
 
