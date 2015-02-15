@@ -4,7 +4,7 @@ function animateSmile() {
 	// Great reference and due credit: http://jakearchibald.com/2013/animated-line-drawing-svg/
 	var svgDocument = document.getElementById('blinking-face-obj').contentDocument;
 	var paths = svgDocument.querySelectorAll('#duplii-logo-face path');
-	var delay = 0.4;
+	var delay = 0.2;
 	for (var i = 0; i < paths.length; i++) {
 		var path = paths[i];
 		var length = path.getTotalLength();
@@ -22,7 +22,7 @@ function animateSmile() {
 		delay = delay + 0.1;
 		// Define our transition
 		path.style.transition = path.style.WebkitTransition =
-		  'stroke-dashoffset .7s ease-in-out '+ delay +'s, fill .2s ease-in 1.3s';
+		  'stroke-dashoffset .5s ease-in-out '+ delay +'s, fill .2s ease-in .8s';
 		// Go!
 		path.style.strokeDashoffset = '0';
 		path.style.fill = '#FFFFFF';

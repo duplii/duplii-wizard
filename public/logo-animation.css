@@ -63,9 +63,9 @@ svg {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  -webkit-transition: all .7s ease-in;
-          transition: all .7s ease-in;
-  background-color: #FA8E6A; }
+  -webkit-transition: all .5s ease-in;
+          transition: all .5s ease-in;
+  background-color: #FA8E6A;
 
 .magic-dot-expanded {
   width: 1200px;
@@ -107,20 +107,20 @@ svg {
   color: #FFFFFF;
   -webkit-transform: scale3d(0, 0, 0);
           transform: scale3d(0, 0, 0);
-  -webkit-transition: all .3s cubic-bezier(0, -2, 0, 2) 0.1s;
-          transition: all .3s cubic-bezier(0, -2, 0, 2) 0.1s; }
+  -webkit-transition: all .3s cubic-bezier(0, -2, 0, 2) 0.05s;
+          transition: all .3s cubic-bezier(0, -2, 0, 2) 0.05s; }
   .magic-text-container .magic-text:nth-child(1) {
-    -webkit-transition-delay: 0.25s;
-            transition-delay: 0.25s; }
+    -webkit-transition-delay: 0.2s;
+            transition-delay: 0.2s; }
   .magic-text-container .magic-text:nth-child(2) {
-    -webkit-transition-delay: 0.4s;
-            transition-delay: 0.4s; }
+    -webkit-transition-delay: 0.35s;
+            transition-delay: 0.35s; }
   .magic-text-container .magic-text:nth-child(3) {
-    -webkit-transition-delay: 0.55s;
-            transition-delay: 0.55s; }
+    -webkit-transition-delay: 0.5s;
+            transition-delay: 0.5s; }
   .magic-text-container .magic-text:nth-child(4) {
-    -webkit-transition-delay: 0.7s;
-            transition-delay: 0.7s; }
+    -webkit-transition-delay: 0.65s;
+            transition-delay: 0.65s; }
 
 .magic-text-container.magic-text-container-appear .magic-text {
   -webkit-transform: scale3d(1, 1, 1);

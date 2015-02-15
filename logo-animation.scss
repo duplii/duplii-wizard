@@ -69,7 +69,7 @@ svg {
 	width: 12px;
 	height: 12px;
 	border-radius: 50%;
-	transition: all .7s ease-in;
+	transition: all .5s ease-in;
 	background-color: $orange-alt;
 }
 
@@ -101,8 +101,8 @@ svg {
 }
 
 .magic-text-container .magic-text {
-	$delay: .1s;
 	color: $white;
+	$delay: .05s;
 	transform: scale3d(0,0,0);
 	transition: all .3s cubic-bezier(0, -2, 0, 2) $delay;
 	
