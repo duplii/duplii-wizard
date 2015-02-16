@@ -12,6 +12,7 @@ $white: #FFFFFF;
 		top: 20%;
 		width: 45px;
 		height: 50%;
+		z-index: 0;
 		
 		&.bubble-container--right {
 			left: auto;
@@ -32,6 +33,12 @@ $white: #FFFFFF;
 			}
 		}
 	}
+}
+
+.celebration-message {
+	/* This makes sure that the text stays above the bubbles. */
+	position: relative;
+	z-index: 1;
 }
 
 #blinking-face-obj {

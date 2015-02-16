@@ -6,7 +6,8 @@
     left: 0;
     top: 20%;
     width: 45px;
-    height: 50%; }
+    height: 50%;
+    z-index: 0; }
     .celebration-container .bubble-container.bubble-container--right {
       left: auto;
       right: 0; }
@@ -19,6 +20,11 @@
         width: 70px; }
         .celebration-container .bubble-container.bubble-container--right {
           right: -80px; } }
+
+.celebration-message {
+  /* This makes sure that the text stays above the bubbles. */
+  position: relative;
+  z-index: 1; }
 
 #blinking-face-obj {
   position: relative;
