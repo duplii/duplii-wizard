@@ -4,6 +4,7 @@ $orange-alt: #FA8E6A;
 $white: #FFFFFF;
 
 .celebration-container {
+	position: relative;
 	
 	.bubble-container {
 		position: absolute;
@@ -19,7 +20,6 @@ $white: #FFFFFF;
 	}
 	
 	@media (min-width: 600px) {
-		position: relative;
 		max-width: 550px;
 		margin: 0 auto;
 		

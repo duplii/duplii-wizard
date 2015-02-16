@@ -1,23 +1,24 @@
 /* Put here animation specific styles */
-.celebration-container .bubble-container {
-  position: absolute;
-  left: 0;
-  top: 20%;
-  width: 45px;
-  height: 50%; }
-  .celebration-container .bubble-container.bubble-container--right {
-    left: auto;
-    right: 0; }
-@media (min-width: 600px) {
-  .celebration-container {
-    position: relative;
-    max-width: 550px;
-    margin: 0 auto; }
-    .celebration-container .bubble-container {
-      left: -80px;
-      width: 70px; }
-      .celebration-container .bubble-container.bubble-container--right {
-        right: -80px; } }
+.celebration-container {
+  position: relative; }
+  .celebration-container .bubble-container {
+    position: absolute;
+    left: 0;
+    top: 20%;
+    width: 45px;
+    height: 50%; }
+    .celebration-container .bubble-container.bubble-container--right {
+      left: auto;
+      right: 0; }
+  @media (min-width: 600px) {
+    .celebration-container {
+      max-width: 550px;
+      margin: 0 auto; }
+      .celebration-container .bubble-container {
+        left: -80px;
+        width: 70px; }
+        .celebration-container .bubble-container.bubble-container--right {
+          right: -80px; } }
 
 #blinking-face-obj {
   position: relative;
