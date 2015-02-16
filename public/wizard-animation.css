@@ -22,6 +22,7 @@
           right: -80px; } }
 
 .celebration-message {
+  max-width: 450px;
   /* This makes sure that the text stays above the bubbles. */
   position: relative;
   z-index: 1; }
