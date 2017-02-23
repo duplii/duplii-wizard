@@ -44,8 +44,8 @@
   height: 12px;
   border-radius: 50%;
   -webkit-transition: all .5s ease-in;
-          transition: all .5s ease-in;
-  background-color: #FA8E6A;
+  transition: all .5s ease-in;
+  background-color: #FF5F19;
   z-index: 1; }
 
 .magic-dot-expanded {
@@ -73,8 +73,8 @@
   z-index: 2;
   -webkit-transform: scale3d(0, 0, 0);
           transform: scale3d(0, 0, 0);
-  -webkit-transition: all .3s cubic-bezier(0, -2, 0, 2) 0.05s;
-          transition: all .3s cubic-bezier(0, -2, 0, 2) 0.05s; }
+  -webkit-transition: all 0.3s cubic-bezier(0, -2, 0, 2) 0.05s;
+  transition: all 0.3s cubic-bezier(0, -2, 0, 2) 0.05s; }
   .magic-text-container .magic-text:nth-child(1) {
     -webkit-transition-delay: 0.2s;
             transition-delay: 0.2s; }
